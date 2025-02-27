@@ -6,11 +6,15 @@
   "id": "did:web:famuda1234.github.io:gitapi:did",
   "verificationMethod": [
     {
-      "publicKeyMultibase": "z6MkvJf8Y7GLgSsn5eHc9Yr4LqhjWvPE3r1bkTW7u8vn2Fiu",
       "controller": "did:web:famuda1234.github.io:gitapi:did",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "e": "AQAB",
+        "n": "oMKNcUzuFoEFgDgIyazugaFppoGXpDHvY3o5oUOfeogHLGO9AYLY7RT293i2j27ECznDOJqz38tfdv1HnrCkf5zlCf8q5DkcVD6ldcsq3lFob8BEEFkXM5Dm6v-JoIxXFkH6JypkIxiQeAy-zuD5C8tpJ21Es-X4c7zJQrYuaBXaf6Vk0YaiLsnD2JeHHYmbZTHAH_4GorQcW7ARAyQDPpZ1gM47NI4SSQPzvPv2EdwFBIkZAMjXj21J5PdFDmboTHJFu_ARlNPIqVzUEOOqu3muYEdY9jkSkAd7ivxKNgR7zqyy22LFoN7o5lIP7CXhD2Y16vm23jmHYGfvyHsClQ"
+      },
       "id": "did:web:famuda1234.github.io:gitapi:did#key-0",
-      "type": "Ed25519VerificationKey2020",
-      "@context": "https://w3id.org/security/suites/ed25519-2020/v1"
+      "type": "JsonWebKey2020",
+      "@context": "https://w3id.org/security/suites/jws-2020/v1"
     }
   ],
   "@context": [

@@ -1,20 +1,21 @@
 {
   "assertionMethod": [
-    "did:web:famuda1234.github.io:gitapi:did#key-0"
+    "did:web:vharsh.github.io:gitapi:did#key-0"
   ],
   "service": [],
-  "id": "did:web:famuda1234.github.io:gitapi:did",
+  "id": "did:web:famuda.github.io:gitapi:did",
   "verificationMethod": [
     {
-      "controller": "did:web:famuda1234.github.io:gitapi:did",
+      "controller": "did:web:famuda.github.io:gitapi:did",
       "publicKeyJwk": {
-        "kty": "RSA",
-        "e": "AQAB",
-        "n": "uc07czdZJk82sOUAOxudEt_J_TR7mi9LZ_23toQBG1gXYKVO2iI9xL0FGdssjd8wCaqBZbD9m_IUr6XcALVOQGpWhhQKgOQYYsTXKYuE5AypytCqF-fyZBGS3lYA6L-_-mUl-a5qZHiEn3wIbXxxFpNOatFPgKwjtb37j8NoZpTNWqUTxu25prTi1TSoKFTs_XP6fmaX3-u2dR_lJOg6TBJ10nwNs1vTOc0Xctci3xOfeLyvKjMaQzZGbtrwI83EJaILG_CXOkvW5Egu_JXS2D04yzJd2BhtQd3dIUtthvtMnrH_rmmsBvQ1Uydj2HJrSIElO38SFfuQIowb0W8R6Q"
+        "kty": "EC",
+        "crv": "secp256k1",
+        "x": "cQGjruhlhfkJY14MZ8XsnS8ycPN3S_rT6CAiy7yFmLs",
+        "y": "JZb8AXawM4YJIt0U5idGLH9C6hjRaeQpH5r7bw67zFg"
       },
-      "id": "did:web:famuda1234.github.io:gitapi:did#key-0",
-      "type": "JsonWebKey2020",
-      "@context": "https://w3id.org/security/suites/jws-2020/v1"
+      "id": "did:web:vharsh.github.io:gitapi:did#key-0",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "@context": "https://w3id.org/security/v1"
     }
   ],
   "@context": [
@@ -22,6 +23,6 @@
   ],
   "alsoKnownAs": [],
   "authentication": [
-    "did:web:famuda1234.github.io:gitapi:did#key-0"
+    "did:web:vharsh.github.io:gitapi:did#key-0"
   ]
 }

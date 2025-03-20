@@ -6,7 +6,7 @@
   "id": "did:web:famuda1234.github.io:gitapi:did",
   "verificationMethod": [
     {
-      "publicKeyMultibase": "z6Mkntw2eA6fWvU3UgFVkU528uppZavfx5x1M3ty9J8seuw4",
+      "publicKeyMultibase": "z6MkvsR3q79RWZ2WqqcTad5Kbu21e6vAEYFwFxxq6TAXc7Wb",
       "controller": "did:web:famuda1234.github.io:gitapi:did",
       "id": "did:web:famuda1234.github.io:gitapi:did#key-0",
       "type": "Ed25519VerificationKey2020",
